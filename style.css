@@ -1,0 +1,14 @@
+body {
+    background-color: #F3F1FF;
+}
+header {
+    background-color: #562EFF;
+}
+nav img {
+    height: 30px;
+    padding: 0 auto;
+}
+.logo-name {
+    display: inline;
+
+}
