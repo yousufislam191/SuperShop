@@ -20,5 +20,5 @@ if (mysqli_num_rows($result)) {
     echo "<script>location.href='../clientSite/home.php'</script>";
 } else {
     echo "<script>alert('Login Failed!!..')</script>";
-    echo "<script>location.href='../clientSite/loginRegistration/login.php'</script>";
+    echo "<script>location.href='../index.php'</script>";
 }

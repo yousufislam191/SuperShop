@@ -2,6 +2,7 @@ function loginValidation() {
     var emailRegex = /[a-z0-9._]+@[a-z]+[\.a-z]+/;
     var passRegex = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&+=])(?=\S+$).{8,20}/;
 
+
     var email = document.getElementById("login-email").value;
     var pass = document.getElementById("login-password").value;
 
@@ -26,3 +27,8 @@ function loginValidation() {
         document.getElementById("loginForm").submit;
     }
 }
+
+// function login() {
+//     document.querySelector("#login-area").style.display="block";
+//     loginValidation();
+// }

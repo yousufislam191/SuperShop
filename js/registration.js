@@ -7,12 +7,12 @@ function registrationValidation() {
     var email = document.getElementById("registration-email").value;
     var pass = document.getElementById("registration-password").value;
 
-    if(!name.match(nameRegex)) {
-        document.getElementById("errorname").innerHTML= "Invalid Name";
+    if (!name.match(nameRegex)) {
+        document.getElementById("errorname").innerHTML = "Invalid Name";
         return false;
     }
     else {
-        document.getElementById("errorname").innerHTML= "";
+        document.getElementById("errorname").innerHTML = "";
     }
 
     if (!email.match(emailRegex)) {
